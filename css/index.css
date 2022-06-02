@@ -1,0 +1,280 @@
+#navbar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+body{
+    background-color: #16161a;
+}
+#navbar>div:first-child{
+    font-size: 30px;
+    color: #7f5af0;
+    padding-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#navbar>div:last-child{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,18%);
+    justify-content: left;
+    align-items: center;
+}
+#navbar>div:last-child>a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: #94a1b2;
+}
+
+#name{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+#name>div:nth-child(1)>p:first-child{
+    font-size: 40px;
+    font-weight: bold;
+    color: #7f5af0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 60px;
+}
+#name>div:nth-child(1)>p:last-child{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name>div:nth-child(2)>a{
+    text-decoration: none;
+    padding: 5px;
+}
+.fa-github,.fa-linkedin,.fa-hackerrank{
+    color: rgb(221, 208, 208);
+    font-size: 25px;
+}
+#name>div:nth-child(3){
+    margin-top: 30px;
+    padding-top: 50px;
+}
+#name>div:nth-child(3)>a{
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    border: 0.3px solid #7f5af0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(120deg, var(--t-hero-primary-background-color) 50%, var(--t-hero-button-color) 50%);
+}
+#name>div:nth-child(3)>a:hover{
+    background-color: #7f5af0;
+}
+#Skills{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    margin-top: 40px;
+ }
+ #Skills>h2{
+     font-size: 30px;
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+#Skills>div{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 30%;
+    padding-bottom: 50px;
+    padding-top: 30px;
+ }
+#Skills>div>div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 50px;
+}
+#Skills>div>div>img{
+    width: 40px;
+    height: 40px;
+ }
+ #Skills>div>div>p{
+   color: white;
+   padding-left: 10px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+#Projects{
+    width: 100%;
+    width: auto;
+}
+#Projects>h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#Projects>div{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+#Projects>div>div>img{
+  width: 100%;
+  height: 230px;
+}
+#Projects>div>div>p:nth-child(1){
+    font-size: 23px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #Projects>div>div>p:nth-child(3){
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #Projects>div>div>h4{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  #Projects>div>div>h4>p{
+    color: white;
+    font-size: 18px;
+    padding-right: 10px;
+    display: block;
+  }
+  #Projects>div>div>h4>p>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+  }
+  #Projects>div>div>h4>p>i{
+    font-size: 20px;
+    color: white;
+  }
+  #Contact{
+      padding-top: 30px;
+      width: 100%;
+      padding-bottom: 40px;
+  }
+  #Contact>div{
+    width: 80%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#About{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#About>h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#About>div{
+    padding-top: 30px;
+    width: 50%;
+    margin: auto;
+
+}
+#About>div>h3{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+
+}
+@media only screen and (min-width: 421px) and (max-width: 720px) {
+    #navbar{
+        grid-template-columns: repeat(1,100%);
+        height: 80px;
+    }
+    #navbar>div:first-child{
+        padding-left: 0px;
+        text-align: center;
+    }
+    #name{
+        width: 80%;
+    }
+    #Skills>div{
+        grid-template-columns: repeat(3,30%);
+    }
+    #Projects>div{
+        display: grid;
+        grid-template-columns: repeat(1,80%);
+        width: 80%;
+        margin: auto;
+    }
+    #Contact>div{
+        width: 90%;
+        display: block;
+        padding-top: 30px;
+    }
+}
+
+
+ @media only screen and (min-width: 0px) and (max-width: 420px) {
+    #navbar{
+        grid-template-columns: repeat(1,100%);
+    }
+    #navbar>div:last-child{
+        grid-template-columns: repeat(1,18%);
+    }
+    #navbar>div:first-child{
+        padding-left: 0px;
+        text-align: center;
+    }
+    #name{
+        width: 90%;
+        margin-top: 300px;
+    }
+    #name>div:nth-child(1)>p:first-child{
+        font-size: 20px;
+       
+    }
+    #name>div:nth-child(1)>p:last-child{
+        font-size: 15px;
+    }
+    #Skills>div{
+        grid-template-columns: repeat(2,50%);
+        justify-content: space-around;
+    }
+  
+    #Projects>div{
+        grid-template-columns: repeat(1,90%);
+        width: 95%;
+    }
+    #Contact>div{
+        width: 95%;
+        display: block;
+        padding-top: 40px;
+    }
+ }
