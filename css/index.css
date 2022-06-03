@@ -80,7 +80,7 @@ body{
     text-align: center;
     padding-top: 20px;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
  }
  #Skills>h2{
      font-size: 30px;
@@ -96,7 +96,7 @@ body{
     margin: auto;
     height: 30%;
     padding-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 10px;
  }
 #Skills>div>div{
    display: flex;
@@ -118,6 +118,7 @@ body{
     width: auto;
 }
 #Projects>h2{
+    padding-top: 50px;
     text-align: center;
     font-size: 30px;
     color: white;
